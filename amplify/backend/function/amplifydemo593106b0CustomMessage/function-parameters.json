@@ -1,0 +1,21 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "amplifydemo593106b0",
+  "functionName": "amplifydemo593106b0CustomMessage",
+  "resourceName": "amplifydemo593106b0CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": "[\n  {\n    \"key\": \"RESOURCENAME\",\n    \"value\": \"resourceName\"\n  }\n]",
+  "triggerDir": "C:\\snapshot\\repo\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "amplifydemo593106b0CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "https://localhost:4200",
+  "EMAILSUBJECT": "Amplify Demo Email Confirmed",
+  "EMAILMESSAGE": "You must now act happy",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}

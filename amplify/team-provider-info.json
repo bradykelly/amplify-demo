@@ -9,7 +9,22 @@
       "UnauthRoleName": "amplify-amplifydemo-dev-230407-unauthRole",
       "StackName": "amplify-amplifydemo-dev-230407",
       "StackId": "arn:aws:cloudformation:us-east-1:388837942384:stack/amplify-amplifydemo-dev-230407/39ed4850-613b-11ed-be2a-0a55757704b7",
-      "AmplifyAppId": "d2sfk7luygenct"
+      "AmplifyAppId": "d2sfk7luygenct",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplifydemo-dev-230407-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "amplifydemo593106b0": {}
+      },
+      "function": {
+        "amplifydemo593106b0CustomMessage": {
+          "REDIRECTURL": "https://localhost:4200",
+          "EMAILSUBJECT": "Amplify Demo Email Confirmed",
+          "EMAILMESSAGE": "You must now act happy",
+          "deploymentBucketName": "amplify-amplifydemo-dev-230407-deployment",
+          "s3Key": "amplify-builds/amplifydemo593106b0CustomMessage-637a2b35487757744752-build.zip"
+        }
+      }
     }
   }
 }
