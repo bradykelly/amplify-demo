@@ -62,6 +62,11 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "sslKey": "./cert/ca.key",
+            "sslCert": "./cert/ca.crt",
+            "ssl": true
+          },
           "configurations": {
             "production": {
               "browserTarget": "amplify-demo:build:production"
@@ -97,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
